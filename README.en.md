@@ -4,15 +4,6 @@
 
 The Intelligent E-commerce Customer Service & Sales Support System is a modern customer service solution based on multi-agent architecture and MCP (Model Context Protocol), designed to provide efficient, intelligent, and personalized customer service experiences for e-commerce platforms. The system adopts a dual-service architecture (MCP server on port 8000, main application service on port 8001) and leverages advanced AI technology through collaborative specialized agents to deliver 24/7 uninterrupted customer service support.
 
-### 🎯 Core Values
-
-- **Efficiency Enhancement**: Response time reduced from minutes to seconds, significantly improving customer satisfaction
-- **Cost Optimization**: 70% reduction in manual customer service requirements, substantially lowering operational costs
-- **Service Quality**: Consistent, professional customer service experience
-- **Business Growth**: Improved conversion rates and average order value through intelligent recommendations and sales support
-- **Standardized Protocol**: Based on MCP protocol for standardized tool integration and communication
-- **Clear Architecture**: Dual-service architecture with clear separation of concerns (MCP server: 8000, Main service: 8001)
-
 ## 🏗️ System Architecture
 
 ### Multi-Agent Architecture Design
@@ -93,12 +84,6 @@ The system adopts a distributed multi-agent architecture where each agent focuse
 - **Order Operations**: Support for order modifications, cancellations, and other operations
 - **Exception Handling**: Automatic identification and handling of order anomalies
 - **Historical Records**: Complete order history queries
-
-### 🎁 Promotional Activities
-- **Activity Recommendations**: Intelligent matching of suitable promotional activities
-- **Coupon Management**: Coupon queries and usage guidance
-- **Member Benefits**: Member tier and benefit explanations
-- **Limited-time Promotions**: Real-time push notifications for time-limited offers
 
 ### 🔧 After-sales Service
 - **Returns & Exchanges**: Automated return and exchange process guidance
@@ -378,20 +363,6 @@ product_agent = ProductAgent()
 response = await product_agent.generate_product_agent("Recommend a cost-effective smartphone")
 ```
 
-## 📊 Performance Metrics
-
-### System Performance
-- **Response Time**: < 3 seconds
-- **Concurrent Processing**: Supports 1000+ concurrent users
-- **Availability**: 99.9% system availability
-- **Accuracy**: Intent recognition accuracy > 95%
-
-### Business Metrics
-- **Customer Satisfaction**: > 90%
-- **Problem Resolution Rate**: > 85%
-- **Conversion Rate Improvement**: > 30%
-- **Cost Reduction**: > 70%
-
 ## 🔧 Development Guide
 
 ### Project Structure
@@ -463,16 +434,6 @@ black app/
 isort app/
 ```
 
-## 🤝 Contributing
-
-We welcome community contributions! Please follow these steps:
-
-1. Fork this repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Create a Pull Request
-
 ### Code Standards
 
 - Follow PEP 8 Python coding standards
@@ -486,9 +447,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Contact
 
-- **Issue Reports**: [GitHub Issues](https://github.com/YU-UR/customer_sagent/issues)
+- **Issue Reports**: [GitHub Issues](https://github.com/YU-UR/customer_agent/issues)
 - **Feature Requests**: [GitHub Discussions](https://github.com/YU-UR/customer_agent/discussions)
-- **Technical Support**: support@yourcompany.com
 
 ## 🙏 Acknowledgments
 
