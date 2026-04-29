@@ -1,0 +1,86 @@
+# 智能电商客服与销售支持系统 - 依赖包列表
+# 基于多智能体架构的智能客服系统
+
+# ===== 核心框架 =====
+fastapi==0.117.1
+uvicorn==0.37.0
+starlette==0.48.0
+
+# ===== 数据验证和配置 =====
+pydantic==2.11.9
+pydantic-settings==2.11.0
+pydantic_core==2.33.2
+python-dotenv==1.1.1
+
+# ===== 异步和HTTP客户端 =====
+httpx==0.28.1
+httpx-sse==0.4.1
+aiohttp==3.12.15
+aiofiles==23.2.1
+anyio==4.11.0
+
+# ===== AI和语言模型 =====
+openai==1.109.1
+langchain-core==0.3.76
+langchain-openai==0.3.33
+langgraph==0.6.7
+langgraph-checkpoint==2.1.1
+langgraph-prebuilt==0.6.4
+langgraph-sdk==0.2.9
+tiktoken==0.11.0
+
+# ===== 记忆系统 =====
+mem0ai==0.1.118
+
+# ===== MCP协议支持 =====
+# 使用官方 MCP Python SDK，并启用 CLI/SSE 支持
+mcp[cli]==1.12.4
+
+# ===== 数据库相关 =====
+SQLAlchemy==2.0.43
+PyMySQL==1.1.0
+asyncpg==0.29.0
+redis==5.0.1
+
+# ===== 向量数据库 =====
+pymilvus==2.6.2
+qdrant-client==1.15.1
+
+# ===== 嵌入模型支持 =====
+dashscope==1.24.6
+
+# ===== 认证和安全 =====
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.3.0
+cryptography==46.0.1
+bleach==6.1.0
+
+# ===== 数据处理 =====
+pandas==2.3.2
+numpy==2.3.3
+
+# ===== 工具和实用程序 =====
+typer==0.19.2
+click==8.3.0
+rich==14.1.0
+tqdm==4.67.1
+requests==2.31.0
+
+# ===== 运行所需的遗漏依赖 =====
+inflection
+uuid6
+
+# ===== JSON和序列化 =====
+orjson==3.11.3
+ujson==5.11.0
+
+# ===== 其他依赖 =====
+python-multipart==0.0.20
+sse-starlette==3.0.2
+python-dateutil==2.9.0.post0
+PyYAML==6.0.2
+packaging==25.0
+typing_extensions==4.15.0
+certifi==2025.8.3
+urllib3==2.5.0

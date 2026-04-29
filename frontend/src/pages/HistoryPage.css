@@ -1,0 +1,82 @@
+.history-page {
+  min-height: 100vh;
+  background: var(--bg-color);
+}
+
+.history-header {
+  background: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--shadow);
+}
+
+.history-header h1 {
+  font-size: 24px;
+  color: var(--text-primary);
+}
+
+.back-btn, .clear-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.back-btn {
+  background: var(--bg-color);
+  color: var(--text-primary);
+}
+
+.clear-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.history-content {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.loading, .empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+}
+
+.empty-state p:first-child {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.memory-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.memory-item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.memory-content {
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.memory-meta {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.memory-time {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+

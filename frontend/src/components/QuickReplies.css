@@ -1,0 +1,42 @@
+.quick-replies {
+  padding: 15px 30px;
+  background: white;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border-color);
+}
+
+.quick-reply-btn {
+  padding: 8px 16px;
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.quick-reply-btn:hover {
+  background: var(--bg-color);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-icon {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .quick-replies {
+    padding: 10px 15px;
+  }
+  
+  .quick-reply-btn {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+}
+

@@ -1,0 +1,132 @@
+.settings-page {
+  min-height: 100vh;
+  background: var(--bg-color);
+}
+
+.settings-header {
+  background: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--shadow);
+}
+
+.settings-header h1 {
+  font-size: 24px;
+  color: var(--text-primary);
+}
+
+.settings-content {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.settings-section {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+.settings-section h2 {
+  font-size: 18px;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: var(--bg-color);
+  border-radius: 8px;
+}
+
+.info-label {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.info-value {
+  font-size: 14px;
+  color: var(--text-primary);
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  background: var(--primary-gradient);
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.action-btn:hover {
+  opacity: 0.9;
+}
+
+.health-status {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.status-badge.healthy {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.status-badge.unhealthy {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.category-tag {
+  padding: 6px 12px;
+  background: var(--primary-gradient);
+  color: white;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.about-text {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
